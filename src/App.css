@@ -1,0 +1,104 @@
+/* theme */
+body {
+  font-family: 'Josefin Sans', sans-serif !important;
+  background-color: #fff;
+  color: #505050;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto Slab', serif;
+}
+a, a:hover {
+  color: #505050 !important;
+}
+button, button:hover {
+  background-color: #505050 !important;
+}
+button.navbar-toggler {
+  background-color: transparent !important;
+}
+.footer-link {
+  text-decoration: none !important;
+}
+.line-border {
+  border-top: solid 1px #505050;
+}
+.header {
+  background-color: #ffffff;
+  box-shadow: 0px 3px 10px #ccc;
+}
+#header-wrapper {
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px #ccc;
+}
+
+.vertical-center {
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.bg-image {
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  height: 400px;
+}
+.bg-image-text-container {
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  position: absolute;
+}
+.bg-image-text-bg {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 2rem 2rem 1rem;
+  outline: 2px solid rgba(255, 255, 255, 0.9);
+  outline-offset: 5px;
+}
+.bg-image-text-bg span {
+  font-size: 4.5rem;
+}
+
+
+@media screen and (min-width: 992px) {
+  .parallax-card {
+max-width:60%
+  }
+  #order-online {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  }
+  #homepage-text-bg span{
+    font-size: 4rem;
+  }
+}
+@media screen and (max-width: 991px) {
+  #order-online {
+    width: fit-content;
+    }
+    #homepage-text-bg span{
+      font-size: calc(1.375rem + 1.5vw)
+    }
+  
+}
+.link-icon:hover {
+  transform: scale(1.1);
+}
+
+.menu-item {
+  width:200px;
+}
+#menu-banner {
+  background-image: url("./assets/menu-banner.webp");
+}
+#about-banner {
+  background-image: url("./assets/about-banner.webp");
+}
+#contact-banner {
+  background-image: url("./assets/contact-banner.webp");
+}
