@@ -25,17 +25,17 @@ export default function ContactPage() {
             </div>        
         </section>
 
-        <Container>
+        <Container className='px-5 px-sm-0'>
             <Row className='py-5'>
               
 
-              <Col lg={12} xl={4} className='p-5'>
+              <Col xs={12} sm={6} md={6} lg={6} className=''>
                       <div>
-                          <Image src={MapImg} fluid/>
+                          <Image src={MapImg} fluid className='d-block m-auto pb-5 pb-sm-0'/>
                       </div>
                     </Col>
 
-                    <Col lg={12} xl={4} className='px-5 pt-4'>
+                    {/* <Col lg={12} xl={4} className='px-5 pt-4'>
 
                     <Form>
                       <Form.Group className="mb-3" controlId="contactForm.ControlInput1">
@@ -53,8 +53,8 @@ export default function ContactPage() {
                       <Button variant="dark">Submit</Button>
                     </Form>
 
-                    </Col>
-                    <Col lg={12} xl={4} className="px-5 pt-5">
+                    </Col> */}
+                    <Col xs={12} sm={6} md={6} lg={6} className="px-3 px-sm-3">
                       <p>14552 Ventura Blvd Los Angeles, CA 91403</p>
                       <p>Monday - Thursday : 2pm - 12am</p>
                       <p>Friday - Sunday  : 12pm-12am</p>

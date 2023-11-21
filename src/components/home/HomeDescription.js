@@ -12,23 +12,23 @@ export default function HomeDescription() {
         </Row>
 
         <Row className='text-center py-2'>
-            <Col >
+            <Col className='description-icons'>
             <img width="50" height="50" src="https://img.icons8.com/glyph-neue/64/espresso-cup.png" alt="espresso-cup"/>
                  <h5>Coffee & Tea</h5>   
             </Col>
-            <Col>
+            <Col className='description-icons'>
             <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/solo-cup.png" alt="solo-cup"/>
                  <h5>Refreshments</h5>   
             </Col>
-            <Col>
+            <Col className='description-icons'>
             <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/dessert.png" alt="dessert"/>
                  <h5>Desserts</h5>   
             </Col>
-            <Col>
+            <Col className='description-icons'>
             <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/000000/natural-food.png" alt="natural-food"/>
                  <h5>Vegan</h5>   
             </Col>
-            <Col>
+            <Col className='description-icons'>
             <img width="50" height="50" src="https://img.icons8.com/external-nawicon-glyph-nawicon/64/000000/external-Gluten-Free-healthy-diet-nawicon-glyph-nawicon.png" alt="external-Gluten-Free-healthy-diet-nawicon-glyph-nawicon"/>
                  <h5>Gluten Free</h5>   
             </Col>

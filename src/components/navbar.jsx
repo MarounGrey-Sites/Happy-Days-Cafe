@@ -10,6 +10,10 @@ import Grubhub from "../assets/icons8-grubhub.svg"
 
 const menuData = [
   {
+    path:'/',
+    name: 'Home'
+  },
+  {
     path:'/menu',
     name: 'Menu'
   },
