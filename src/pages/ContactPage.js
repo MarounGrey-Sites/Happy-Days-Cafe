@@ -59,7 +59,7 @@ export default function ContactPage() {
                       <p>Monday - Thursday : 2pm - 12am</p>
                       <p>Friday - Sunday  : 12pm-12am</p>
                       <p>+1 (818) 809-2554</p>
-                      <p>ferialnasseri@yahoo.com</p>
+                      <p>dbahappydayscafe@gmail.com</p>
                     </Col>
 
 

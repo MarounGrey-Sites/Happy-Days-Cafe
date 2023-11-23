@@ -10,8 +10,12 @@ h1, h2, h3, h4, h5, h6 {
 a, a:hover {
   color: #505050 !important;
 }
-button, button:hover {
+button {
   background-color: #505050 !important;
+  border: none !important;
+}
+button:focus, button:hover {
+  background-color: #808080 !important;
 }
 button.navbar-toggler {
   background-color: transparent !important;
@@ -121,10 +125,10 @@ max-width:60%
   width:200px;
 }
 #menu-banner {
-  background-image: url("./assets/menu-banner.webp");
+  background-image: url("./assets/about-banner.webp");
 }
 #about-banner {
-  background-image: url("./assets/about-banner.webp");
+  background-image: url("./assets/menu-banner.webp");
 }
 #contact-banner {
   background-image: url("./assets/contact-banner.webp");

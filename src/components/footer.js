@@ -5,6 +5,7 @@ import Doordash from "../assets/icons8-doordash.svg"
 import Grubhub from "../assets/icons8-grubhub.svg"
 import Yelp from "../assets/icons8-yelp-logo.svg"
 import Facebook from "../assets/icons8-facebook-24.svg"
+import Instagram from "../assets/icons8-instagram.svg"
 
 export default function AppFooter() {
   return (
@@ -17,6 +18,7 @@ export default function AppFooter() {
               <Col><a className="my-3" href='https://www.grubhub.com/restaurant/happy-days-cafe-14552-ventura-blvd-sherman-oaks/1076894' target='_blank'><img src={Grubhub} width="25" height="25" className="d-inline-block align-top link-icon" alt="Grubhub"/></a></Col>
               <Col><a className="my-3" href='https://www.yelp.com/biz/happy-days-cafe-los-angeles' target='_blank'><img src={Yelp} width="25" height="25" className="d-inline-block align-top link-icon" alt="Yelp"/></a></Col>
               <Col><a className="my-3" href='https://www.facebook.com/happydaysla/' target='_blank'><img src={Facebook} width="25" height="25" className="d-inline-block align-top link-icon" alt="Facebook"/></a></Col>
+              <Col><a className="my-3" href='https://www.instagram.com/happydayscafe/' target='_blank'><img width="25" height="25" src={Instagram} alt="Instagram" className="d-inline-block align-top link-icon"/></a></Col>
             </Row>
             <Row>© {new Date().getFullYear()} Happy Days Cafe. All rights reserved.</Row>
         </Container>
