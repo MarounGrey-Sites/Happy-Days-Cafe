@@ -267,7 +267,7 @@ export const menuData = [
         id: 42,
         category: 'Ice Cream',
         price: '$7.00',
-        image: 'no-image',
+        image: 'Vanilla Ice Cream',
         title: 'Vegan Coconut Vanilla Ice Cream'
     },
     {
