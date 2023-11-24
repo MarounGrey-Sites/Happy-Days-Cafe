@@ -12,14 +12,14 @@ export default function MenuCategories({menuCategories, filterItems, setItems, s
     <div className='text-center py-3'>
             <div className='mx-auto'>
             <div className='p-2 d-inline-block'>
-                <Button onClick={handleAllClick}>
+                <Button className='menu-btns' onClick={handleAllClick} autoFocus>
                     All
                 </Button>
             </div>
         {
             menuCategories.map(val => (
                 <div className='p-2 d-inline-block'>
-                    <Button className='mx-auto' onClick={() => filterItems(val)}>
+                    <Button className='mx-auto menu-btns' onClick={() => filterItems(val)}>
                         {val}
                     </Button>
                 </div>
