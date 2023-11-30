@@ -11,7 +11,8 @@ const categoryMessages = {
   'Churros & Desserts': '* ITEMS WITH VEGAN ICE CREAM ARE AN EXTRA CHARGE',
   'Milkshakes': 'ASK FOR DAILY FLAVORS',
   'Coffee & Tea': 'HAPPY DAYS IS SERVING LAMILL COFFEE AND TEAS. SUB ALMOND, SOY OR OAT FOR $1.',
-  'Ice Cream': '2 SCOOPS AVAILABLE IN CUP OR WAFFLE CONE'
+  'Ice Cream': '2 SCOOPS AVAILABLE IN CUP OR WAFFLE CONE',
+  'Cold Drinks': 'WE CAN MAKE MOST OF THE HOT DRINKS COLD TOO. SUB ALMOND, SOY OR OAT FOR $1.'
   // Add more categories and their corresponding messages as needed
 };
 

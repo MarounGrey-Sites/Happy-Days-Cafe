@@ -68,14 +68,14 @@ export const menuData = [
         id: 18,
         category: 'Churros & Desserts',
         description: '',
-        image: 'Stuffed Churros',
+        image: 'Gluten Free Stuffed Churros',
         title: 'Gluten Free Stuffed Churros'
     },
     {
         id: 111,
         category: 'Churros & Desserts',
         description: '',
-        image: 'Stuffed Sampler',
+        image: 'Gluten Free Sampler',
         title: 'Gluten Free Stuffed Sampler'
     },
     {
@@ -85,39 +85,46 @@ export const menuData = [
         image: 'Plain Churros',
         title: 'Gluten Free Plain Churros'
     },
+    {
+        id: 113,
+        category: 'Churros & Desserts',
+        description: '',
+        image: 'Gluten Free Stuffed',
+        title: 'Gluten Free Stuffed'
+    },
 
     {
         id: 21,
         category: 'Milkshakes',
-        description: '',
+        description: 'Also Available in Vegan',
         image: 'Oreo Mint Milkshake',
         title: 'Oreo Mint Milkshake'
     },
     {
         id: 22,
         category: 'Milkshakes',
-        description: '',
+        description: 'Also Available in Vegan',
         image: 'Strawberry Milkshake',
         title: 'Strawberry Milkshake'
     },
     {
         id: 23,
         category: 'Milkshakes',
-        description: '',
+        description: 'Also Available in Vegan',
         image: 'Chocolate Milkshake',
         title: 'Chocolate Milkshake'
     },
     {
         id: 24,
         category: 'Milkshakes',
-        description: '',
+        description: 'Also Available in Vegan',
         image: 'Espresso Shake',
         title: 'Espresso Shake'
     },
     {
         id: 25,
         category: 'Milkshakes',
-        description: '',
+        description: 'Also Available in Vegan',
         image: 'Choose Milkshake Flavor',
         title: 'Choose From Any Ice Cream Flavors'
     },
@@ -168,7 +175,7 @@ export const menuData = [
         id: 37,
         category: 'Coffee & Tea',
         description: '',
-        image: 'Espresso',
+        image: 'Americano',
         title: 'Coffee'
     },
     {
@@ -345,8 +352,8 @@ export const menuData = [
         id: 59,
         category: 'Cold Drinks',
         description: '',
-        image: 'Drink',
-        title: 'Drink'
+        image: 'Rose Water',
+        title: 'Rose Water'
     }
   ];
 
