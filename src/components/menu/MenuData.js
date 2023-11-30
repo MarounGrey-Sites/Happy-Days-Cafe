@@ -65,16 +65,9 @@ export const menuData = [
         title: 'Churro Doughnut'
     },
     {
-        id: 18,
-        category: 'Churros & Desserts',
-        description: '',
-        image: 'Gluten Free Stuffed Churros',
-        title: 'Gluten Free Stuffed Churros'
-    },
-    {
         id: 111,
         category: 'Churros & Desserts',
-        description: '',
+        description: 'Nutella, dulce de leche, guava, chocolate',
         image: 'Gluten Free Sampler',
         title: 'Gluten Free Stuffed Sampler'
     },
