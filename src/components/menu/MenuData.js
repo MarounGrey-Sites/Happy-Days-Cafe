@@ -74,14 +74,14 @@ export const menuData = [
     {
         id: 112,
         category: 'Churros & Desserts',
-        description: '',
+        description: '6pc (V)',
         image: 'Plain Churros',
         title: 'Gluten Free Plain Churros'
     },
     {
         id: 113,
         category: 'Churros & Desserts',
-        description: '',
+        description: 'Choose 2: nutella, dulce de leche, chocolate, guava (V), oreo (V)',
         image: 'Gluten Free Stuffed',
         title: 'Gluten Free Stuffed'
     },
